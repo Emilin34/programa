@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>formulario</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+</head>
+<body background="imagenes/fondo.jpg">
+      <center>
+<form action="/uno/juan.txt">
+            <h2>Inscribe tu gato</h2>
+            <h3>Color de gato</h3>
+            <label for="Negro"><input id="Negro"type="checkbox" value="Negro" name="color" checked>Negro</label> <br>
+            <label for="Blanco"><input id="Blanco" type="checkbox" value="Blanco" name="color">Blanco</label> <br>
+            <label for="Corriente"><input id="Corriente" type="checkbox" value="Corriente" name="color">Corriente y canelo</label> <br>
+              <h3>Tipo de gato</h3> 
+            <!--botones de radio-->
+            <label for="interior"><input id="interior" type="radio" value="interior" name="inext" checked>Gato Abisinio</label> <br>
+            <label for="exterior"><input id="exterior" type="radio" value="exterior" name="inext">Gato Siamés</label> <br>
+            <label for="centro"><input id="centro" type="radio" value="centro" name="inext">Gato Siberiano</label> 
+            <br>
+            
+            <!--cajas de texto-->
+            <h1>Ingrese nombre del gato</h1>
+            <input type="text" placeholder="Ingrese nombre" required>
+            <h1>Ingrese género del gato</h1>
+            <input type="text" placeholder="Ingrese género" required>
+            <h1>Ingresa tu nombre</h1>
+            <input type="text" placeholder="Ingresa tu nombre" required><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+  </center>
+</body>
+</html>
